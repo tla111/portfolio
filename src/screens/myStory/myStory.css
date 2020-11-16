@@ -32,3 +32,11 @@ h2 {
   background-image: url('./images/pingPong.png');
   background-repeat: no-repeat;
 }
+
+.leadership_comic {
+  height: 766px;
+  width: 100%;
+  background-image: url('./images/leadership.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
