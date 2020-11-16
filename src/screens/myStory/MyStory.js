@@ -13,7 +13,6 @@ const MyStory = () => {
       </header>
       <div className='comics_container'>
         <div className='ping_pong_comic'></div>
-        {/* <div className='ping_pong_comic'></div> */}
       </div>
     </div>
   );
