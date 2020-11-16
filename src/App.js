@@ -2,7 +2,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import './App.css';
 import Home from './screens/Home';
-import MyStory from './screens/MyStory';
+import MyStory from './screens/myStory/MyStory';
 import MyWork from './screens/MyWork';
 
 function App() {
