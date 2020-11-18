@@ -1,0 +1,56 @@
+.work_container {
+  /* background-color: aqua; */
+  height: 85vh;
+  width: 100%;
+}
+
+.gate_opener {
+  background-color: crimson;
+  height: 5vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left_door {
+  background-color: blue;
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  left: 0;
+  animation: left_door 3s infinite;
+}
+
+.right_door {
+  background-color: orangered;
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  right: 0;
+  animation: right_door 3s infinite;
+}
+
+.open_gate {
+  font-size: 20px;
+  width: 80px;
+  border: none;
+}
+
+@keyframes left_door {
+  from {
+    left: 0;
+  }
+  to {
+    left: -50%;
+  }
+}
+
+@keyframes right_door {
+  from {
+    right: 0;
+  }
+  to {
+    right: -50%;
+  }
+}
