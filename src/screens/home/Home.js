@@ -10,14 +10,15 @@ const Home = () => {
       <div className='home_container'>
         <div className='box box_left'>
           <div className='profile_pic'></div>
+          <h1>TIM LA</h1>
         </div>
         <div className='box box_right'>
-          <h1>PERSISTENT</h1>
+          <h1>PERSISTENT IN</h1>
           <div className='typed_text_container'>
             <Typewriter
               options={{
                 strings: [
-                  'IN CONSISTENTLY IMPROVING MYSELF',
+                  'CONSISTENTLY IMPROVING MYSELF',
                   'LEADING OTHERS TO BECOME BETTER THAN THEY EXPECT TO BE',
                   'UPLIFTING & BRINGING JOY TO OTHERS',
                 ],
