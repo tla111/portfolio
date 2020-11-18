@@ -1,9 +1,9 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import './App.css';
-import Home from './screens/Home';
+import Home from './screens/home/Home';
 import MyStory from './screens/myStory/MyStory';
-import MyWork from './screens/MyWork';
+import MyWork from './screens/myWork/MyWork';
 
 function App() {
   return (

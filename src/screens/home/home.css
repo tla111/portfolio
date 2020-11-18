@@ -1,0 +1,52 @@
+.home_container {
+  background-color: floralwhite;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  /* border: 1px solid black; */
+  height: 500px;
+  width: 525px;
+}
+
+.box_left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile_pic {
+  border: 1px solid blue;
+  border-style: none;
+  border-radius: 50%;
+  background-image: url('./images/Professional\ Photo.png');
+  background-size: cover;
+  height: 375px;
+  width: 375px;
+}
+
+.box_right {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.box_right h1 {
+  font-size: 60px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.typed_text_container {
+  /* border: 1px solid black; */
+  height: 50px;
+}
+
+.Typewriter__wrapper {
+  color: blue;
+  font-size: 30px;
+  text-align: center;
+}
