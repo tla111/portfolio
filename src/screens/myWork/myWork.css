@@ -14,21 +14,30 @@
 }
 
 .left_door {
-  background-color: blue;
+  background-color: black;
+  background-image: url('./images/lion.jpg');
+  background-size: cover;
   height: 100%;
   width: 50%;
   position: absolute;
   left: 0;
-  animation: left_door 3s infinite;
+  animation: left_door 3s ease-out;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
 }
 
 .right_door {
-  background-color: orangered;
+  background-color: black;
+  background-image: url('./images/lion.jpg');
+  background-size: cover;
+  transform: rotateY(180deg);
   height: 100%;
   width: 50%;
   position: absolute;
   right: 0;
-  animation: right_door 3s infinite;
+  animation: right_door 3s ease-out;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
 }
 
 .open_gate {

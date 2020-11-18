@@ -7,11 +7,8 @@ const MyWork = () => {
     <div>
       <Navigation />
       <div className='work_container'>
-        <div className='gate_opener'>
-          <button className='open_gate'>Open</button>
-        </div>
-        <div className='left_door'></div>
-        <div className='right_door'></div>
+        <div className='left_door' id='l_door'></div>
+        <div className='right_door' id='r_door'></div>
       </div>
     </div>
   );
