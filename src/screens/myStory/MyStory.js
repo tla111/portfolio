@@ -14,6 +14,7 @@ const MyStory = () => {
       <div className='comics_container'>
         <div className='leadership_comic'></div>
         <div className='ping_pong_comic'></div>
+        <div className='communication_comic'></div>
       </div>
     </div>
   );

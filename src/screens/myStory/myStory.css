@@ -11,8 +11,9 @@
 
 .about_header h1,
 h2 {
-  font-weight: 100;
   color: white;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .about_header h1 {
@@ -37,6 +38,14 @@ h2 {
   height: 766px;
   width: 100%;
   background-image: url('./images/leadership.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.communication_comic {
+  height: 900px;
+  width: 100%;
+  background-image: url('./images/communication.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
