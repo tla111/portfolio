@@ -24,7 +24,7 @@ const Home = () => {
                 ],
                 autoStart: true,
                 loop: true,
-                delay: 30,
+                delay: 50,
                 deleteSpeed: 5,
                 wrapperClassName: 'Typewriter__wrapper',
               }}
