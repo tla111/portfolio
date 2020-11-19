@@ -1,9 +1,15 @@
 .home_container {
-  background: linear-gradient(
+  /* background: linear-gradient(
     90deg,
     rgba(16, 0, 252, 1) 0%,
     rgba(0, 212, 255, 1) 30%
-  );
+  ); */
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url('./images/city.jpg');
   background-size: cover;
   height: 90vh;
   display: flex;
@@ -27,7 +33,7 @@
 .box_left h1 {
   font-size: 50px;
   margin-top: 10px;
-  color: white;
+  /* color: white; */
 }
 
 .profile_pic {
@@ -48,7 +54,7 @@
 }
 
 .box_right h1 {
-  color: white;
+  /* color: white; */
   font-size: 60px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin-top: -100px;
@@ -60,7 +66,7 @@
 }
 
 .Typewriter__wrapper {
-  color: white;
+  color: blue;
   font-size: 35px;
   font-weight: 900;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
