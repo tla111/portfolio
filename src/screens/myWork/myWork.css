@@ -150,6 +150,10 @@
   opacity: 0;
   transform: translate(-50%, -50%);
   /* transition: all 0.5s; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .popup:target {
@@ -162,26 +166,68 @@
   transform: translate(-50%, -50%) scale(1);
 }
 
-.popup_left {
-  width: 33.333333%;
-  float: left;
+.popup_close:link,
+.popup_close:visited {
+  color: gray;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 50px;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.2s;
 }
 
-.popup_right {
-  width: 66.666667%;
-  float: left;
-  /* border: 1px solid black; */
-  height: 400px;
-  width: 500px;
-  margin-top: 75px;
-  margin-left: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.popup_close:hover {
+  color: dodgerblue;
 }
 
-.popup_right_container {
+.project_info {
+  border: 1px solid black;
+  height: 350px;
+  width: 700px;
+}
+
+.popup_buttons {
   display: flex;
-  flex-direction: column;
-  place-items: center;
+  margin-top: 20px;
+}
+
+.popup_but {
+  background-color: dodgerblue;
+  color: white;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  height: 50px;
+  width: 200px;
+}
+
+.popup_but:hover {
+  background-color: rgb(4, 127, 250);
+}
+
+/*==============================*/
+
+.info_section1 {
+  border: 1px solid black;
+  height: 250px;
+}
+
+.info_section2 {
+  border: 1px solid black;
+  height: 50px;
+}
+
+.info_section3 {
+  border: 1px solid black;
+  height: 50px;
+}
+
+.info_section2 p,
+.info_section2 h3,
+.info_section3 p,
+.info_section3 h3 {
+  padding-left: 10px;
 }

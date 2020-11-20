@@ -33,13 +33,31 @@ const MyWork = () => {
       {/* Popup 1 */}
       <div className='popup' id='popup1'>
         <div className='popup_container'>
-          <div className='popup_left'></div>
-          <div className='popup_right'>
-            <a href='#cardPage' className='popup_close'>
-              &times;
-            </a>
-            <div className='popup_right_container'></div>
+          <div className='project_info'>
+            <div className='info_section1'>
+              <p></p>
+            </div>
+            <div className='info_section2'>
+              <h3>Front End:</h3>
+              <p>React</p>
+            </div>
+            <div className='info_section3'>
+              <h3>Back End:</h3>
+              <p>Mongo, Node, Express</p>
+            </div>
           </div>
+          <div className='popup_buttons'>
+            <a href='https://www.google.com'>
+              <button className='popup_but'>Website</button>
+            </a>
+
+            <a href='https://github.com/tla111/work-it-out1'>
+              <button className='popup_but'>Code</button>
+            </a>
+          </div>
+          <a href='#cardPage' className='popup_close'>
+            &times;
+          </a>
         </div>
       </div>
       {/* Popup 1 */}
