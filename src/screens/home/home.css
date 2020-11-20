@@ -9,7 +9,7 @@
       rgba(255, 255, 255, 0.4),
       rgba(255, 255, 255, 0.7)
     ),
-    url('./images/city.jpg');
+    url('./images/city2.jpg');
   background-size: cover;
   height: 90vh;
   display: flex;
@@ -66,6 +66,7 @@
 }
 
 .Typewriter__wrapper {
+  /* color: white; */
   color: blue;
   font-size: 35px;
   font-weight: 900;
