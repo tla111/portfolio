@@ -39,11 +39,11 @@
 
 .Typewriter__wrapper {
   color: blue;
+  height: 150px;
   font-size: 35px;
   font-weight: 900;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   display: flex;
-  height: 150px;
 }
 
 .Typewriter__cursor {
@@ -53,8 +53,15 @@
 @media (max-width: 812px) {
   .box_right {
     align-items: center;
+    text-align: center;
+    justify-content: unset;
+    height: 0;
   }
   .box_right h1 {
+    background-color: skyblue;
     font-size: 50px;
+  }
+  .Typewriter__wrapper {
+    height: 300px;
   }
 }

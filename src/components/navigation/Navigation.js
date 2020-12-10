@@ -12,13 +12,18 @@ const Navigation = () => {
         </Nav.Link>
       </Nav.Item>
       <Nav.Item className='nav_item'>
-        <Nav.Link className='nav_link' href='/about'>
-          My Story
+        <Nav.Link className='nav_link' href='/work'>
+          Portfolio
         </Nav.Link>
       </Nav.Item>
       <Nav.Item className='nav_item'>
-        <Nav.Link className='nav_link' href='/work'>
-          My Work
+        <Nav.Link className='nav_link' href='/about'>
+          Story
+        </Nav.Link>
+      </Nav.Item>
+      <Nav.Item className='nav_item'>
+        <Nav.Link className='nav_link' href='/profile'>
+          Profile
         </Nav.Link>
       </Nav.Item>
     </Nav>

@@ -18,10 +18,20 @@
 }
 
 @media (max-width: 812px) {
+  .navList {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+  }
   .nav_item {
     float: none;
     margin: 0 auto;
     display: block;
     text-align: center;
+  }
+  .nav_link,
+  .nav_link:active,
+  .nav_link:visited {
+    font-size: 22px;
   }
 }
