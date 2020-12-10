@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import './myStory.css';
 import leader1 from './images/leadership/leader1.png';
 import leader2 from './images/leadership/leader2.png';
