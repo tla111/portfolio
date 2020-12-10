@@ -6,17 +6,17 @@ import './nav.css';
 const Navigation = () => {
   return (
     <Nav className='justify-content-end navList' activeKey='/home'>
-      <Nav.Item>
+      <Nav.Item className='nav_item'>
         <Nav.Link className='nav_link' href='/'>
           Home
         </Nav.Link>
       </Nav.Item>
-      <Nav.Item>
+      <Nav.Item className='nav_item'>
         <Nav.Link className='nav_link' href='/about'>
           My Story
         </Nav.Link>
       </Nav.Item>
-      <Nav.Item>
+      <Nav.Item className='nav_item'>
         <Nav.Link className='nav_link' href='/work'>
           My Work
         </Nav.Link>

@@ -1,11 +1,9 @@
 import React from 'react';
 import './myStory.css';
-import Navigation from '../../components/navigation/Navigation';
 
 const MyStory = () => {
   return (
     <div>
-      <Navigation />
       <header className='about_header'>
         <h2>Leadership | Ping Pong | Communication</h2>
         <h2>These Three Areas of My Life Have One Word in Common</h2>
