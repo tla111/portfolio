@@ -3,26 +3,16 @@
   background-color: black;
   height: 10vh;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
 }
 
-.navList_li {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  list-style: none;
-  font-size: 20px;
-  margin-right: 10px;
-}
-
-.navList_li_link {
-  text-decoration: none;
-}
-
-.navList_li_link:visited,
-.navList_li_link:active {
+.nav_link,
+.nav_link:active,
+.nav_link:visited {
+  font-size: 18px;
   color: white;
 }
 
-.navList_li_link:hover {
+.nav_link:hover {
   color: dodgerblue;
 }

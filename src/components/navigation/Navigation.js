@@ -1,26 +1,27 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Nav } from 'react-bootstrap';
 import './nav.css';
 
 const Navigation = () => {
   return (
-    <ul className='navList'>
-      <li className='navList_li'>
-        <Link to='/' className='navList_li_link'>
+    <Nav className='justify-content-end navList' activeKey='/home'>
+      <Nav.Item>
+        <Nav.Link className='nav_link' href='/'>
           Home
-        </Link>
-      </li>
-      <li className='navList_li'>
-        <Link to='/about' className='navList_li_link'>
+        </Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Nav.Link className='nav_link' href='/about'>
           My Story
-        </Link>
-      </li>
-      <li className='navList_li'>
-        <Link to='/work' className='navList_li_link'>
+        </Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Nav.Link className='nav_link' href='/work'>
           My Work
-        </Link>
-      </li>
-    </ul>
+        </Nav.Link>
+      </Nav.Item>
+    </Nav>
   );
 };
 
