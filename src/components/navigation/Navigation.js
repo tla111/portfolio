@@ -1,30 +1,31 @@
 import React from 'react';
 import { Nav } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './nav.css';
 
 const Navigation = () => {
   return (
     <Nav className='justify-content-end navList' activeKey='/home'>
       <Nav.Item className='nav_item'>
-        <Nav.Link className='nav_link' href='/'>
+        <Link to='/' className='nav_link'>
           Home
-        </Nav.Link>
+        </Link>
       </Nav.Item>
       <Nav.Item className='nav_item'>
-        <Nav.Link className='nav_link' href='/work'>
+        <Link to='/work' className='nav_link'>
           Portfolio
-        </Nav.Link>
+        </Link>
       </Nav.Item>
       <Nav.Item className='nav_item'>
-        <Nav.Link className='nav_link' href='/about'>
+        <Link to='/about' className='nav_link' href='/about'>
           Story
-        </Nav.Link>
+        </Link>
       </Nav.Item>
-      <Nav.Item className='nav_item'>
-        <Nav.Link className='nav_link' href='/profile'>
+      {/* <Nav.Item className='nav_item'>
+        <Link to='/profile' className='nav_link' href='/profile'>
           Profile
-        </Nav.Link>
-      </Nav.Item>
+        </Link>
+      </Nav.Item> */}
     </Nav>
   );
 };

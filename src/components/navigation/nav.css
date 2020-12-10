@@ -6,6 +6,10 @@
   align-items: center;
 }
 
+.nav_item {
+  margin: 5px;
+}
+
 .nav_link,
 .nav_link:active,
 .nav_link:visited {
