@@ -1,63 +1,80 @@
 import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 import './myWork.css';
 
 const MyWork = () => {
   return (
     <div>
-      <div className='work_container'>
+      <Container fluid className='work_container' id='work_page'>
         <div className='left_door' id='l_door'></div>
         <div className='right_door' id='r_door'></div>
-        <div className='work_box work_box1'>
-          <a href='#popup1'>
-            <div className='projects project_1'></div>
-          </a>
-          <a href='#popup1'>
-            <div className='projects project_2'></div>
-          </a>
-          <a href='#popup1'>
-            <div className='projects project_3'></div>
-          </a>
-          <a href='#popup1'>
-            <div className='projects project_4'></div>
-          </a>
-          <a href='#popup1'>
-            <div className='projects project_5'></div>
-          </a>
-        </div>
-        <div className='work_box work_box2'>
-          <h1>Contact: tlamarketing111@gmail.com</h1>
-        </div>
-      </div>
+        <Row className='work_box1'>
+          <Col className='work_box_col'>
+            <a href='#popup1'>
+              <div className='projects project_1'></div>
+            </a>
+          </Col>
+          <Col className='work_box_col'>
+            <a href='#popup1'>
+              <div className='projects project_2'></div>
+            </a>
+          </Col>
+          <Col className='work_box_col'>
+            <a href='#popup1'>
+              <div className='projects project_3'></div>
+            </a>
+          </Col>
+          <Col className='work_box_col'>
+            <a href='#popup1'>
+              <div className='projects project_4'></div>
+            </a>
+          </Col>
+          <Col className='work_box_col'>
+            <a href='#popup1'>
+              <div className='projects project_5'></div>
+            </a>
+          </Col>
+        </Row>
+        <Row>
+          <Col className='work_box2'>
+            <h1>Contact: tlamarketing111@gmail.com</h1>
+          </Col>
+        </Row>
+      </Container>
       {/* Popup 1 */}
-      <div className='popup' id='popup1'>
-        <div className='popup_container'>
-          <div className='project_info'>
+      <Container fluid className='popup' id='popup1'>
+        <Row className='popup_container'>
+          <Col className='project_info'>
             <div className='info_section1'>
               <p></p>
             </div>
             <div className='info_section2'>
-              <h3>Front End:</h3>
-              <p>React</p>
+              <h3>
+                Front End: <span>React</span>
+              </h3>
             </div>
             <div className='info_section3'>
-              <h3>Back End:</h3>
-              <p>Mongo, Node, Express</p>
+              <h3>
+                Back End: <span>Mongo, Node, Express</span>
+              </h3>
             </div>
-          </div>
-          <div className='popup_buttons'>
-            <a href='https://www.google.com'>
-              <button className='popup_but'>Website</button>
-            </a>
+          </Col>
+          <Col>
+            <div className='popup_buttons'>
+              <a href='https://www.google.com'>
+                <button className='popup_but'>Website</button>
+              </a>
 
-            <a href='https://github.com/tla111/work-it-out1'>
-              <button className='popup_but'>Code</button>
-            </a>
-          </div>
-          <a href='#cardPage' className='popup_close'>
+              <a href='https://github.com/tla111/work-it-out1'>
+                <button className='popup_but'>Code</button>
+              </a>
+            </div>
+          </Col>
+          <a href='/work' className='popup_close'>
             &times;
           </a>
-        </div>
-      </div>
+        </Row>
+      </Container>
       {/* Popup 1 */}
     </div>
   );
