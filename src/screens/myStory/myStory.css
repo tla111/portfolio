@@ -21,39 +21,22 @@
   color: black;
 }
 
-.leadership_container {
+.comic_container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
-.leadership_container img {
+.comic_container:nth-child(1),
+.comic_container:nth-child(2) {
+  border-bottom: 5px solid black;
+}
+
+.comic_container img {
   margin: 5px;
-}
-
-.ping_pong_comic {
-  height: 800px;
-  width: 100%;
-  /* margin-left: 300px; */
-  background-image: url('./images/pingPong.png');
-  background-repeat: no-repeat;
-}
-
-.leadership_comic {
-  height: 766px;
-  width: 100%;
-  background-image: url('./images/leadership.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.communication_comic {
-  height: 900px;
-  width: 100%;
-  background-image: url('./images/communication.png');
-  background-size: cover;
-  background-repeat: no-repeat;
+  height: 375px;
+  width: 375px;
 }
 
 @media (max-width: 812px) {

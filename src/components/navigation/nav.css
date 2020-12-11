@@ -7,7 +7,7 @@
 }
 
 .nav_item {
-  margin: 5px;
+  margin: 10px;
 }
 
 .nav_link,
@@ -23,9 +23,9 @@
 
 @media (max-width: 812px) {
   .navList {
-    display: flex;
-    flex-direction: column;
-    height: 200px;
+    /* display: flex;
+    flex-direction: column; */
+    height: 100px;
   }
   .nav_item {
     float: none;
@@ -37,5 +37,9 @@
   .nav_link:active,
   .nav_link:visited {
     font-size: 22px;
+    color: gray;
+  }
+  .nav_link:hover {
+    color: white;
   }
 }
