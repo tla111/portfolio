@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './myWork.css';
@@ -61,16 +62,15 @@ const MyWork = () => {
           </Col>
           <Col>
             <div className='popup_buttons'>
-              <a href='https://www.google.com'>
+              <a href='https://www.google.com' target='_blank'>
                 <button className='popup_but'>Website</button>
               </a>
-
-              <a href='https://github.com/tla111/work-it-out1'>
+              <a href='https://github.com/tla111/work-it-out1' target='_blank'>
                 <button className='popup_but'>Code</button>
               </a>
             </div>
           </Col>
-          <a href='/work' className='popup_close'>
+          <a href='#work' className='popup_close'>
             &times;
           </a>
         </Row>
