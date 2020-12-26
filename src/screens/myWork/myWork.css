@@ -99,22 +99,23 @@
 }
 
 .project_1 {
-  background-image: url('./images/workout_app.png');
+  background-image: url('./images/workout.png');
 }
 
 .project_2 {
-  background-image: url('./images/workout_app.png');
+  background-image: url('./images/vision_myself.png');
 }
 
 .project_3 {
-  background-image: url('./images/workout_app.png');
+  background-image: url('./images/workout.png');
 }
 
 .project_4 {
-  background-image: url('./images/workout_app.png');
+  background-image: url('./images/workout.png');
 }
 .project_5 {
-  background-image: url('./images/workout_app.png');
+  background-image: url('./images/Meiwah.png');
+  background-position-x: 12%;
 }
 
 @media (max-width: 812px) {
@@ -186,7 +187,7 @@
 .popup_close:visited {
   color: gray;
   position: absolute;
-  top: -20px;
+  top: -23px;
   right: 20px;
   font-size: 60px;
   text-decoration: none;
