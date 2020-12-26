@@ -7,8 +7,8 @@ const MyWork = () => {
   return (
     <div>
       <Container fluid className='work_container' id='work_page'>
-        <div className='left_door' id='l_door'></div>
-        <div className='right_door' id='r_door'></div>
+        {/* <div className='left_door' id='l_door'></div>
+        <div className='right_door' id='r_door'></div> */}
         <Row className='work_box1'>
           <Col className='work_box_col'>
             <a href='#popup1'>

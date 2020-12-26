@@ -56,6 +56,7 @@
 }
 
 .work_box1 {
+  /* border: 3px solid red; */
   height: 75vh;
   display: flex;
   justify-content: space-evenly;
@@ -67,7 +68,11 @@
 }
 
 .work_box_col {
-  padding: 0;
+  /* border: 3px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
 
 .work_box2 {
@@ -84,8 +89,8 @@
 }
 
 .projects {
-  height: 225px;
-  width: 225px;
+  height: 250px;
+  width: 250px;
   -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
   box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
