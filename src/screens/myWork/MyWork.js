@@ -127,17 +127,29 @@ const MyWork = () => {
             </div>
             <div className='info_section3'>
               <h3>
-                Back End: <span>Mongo, Node, Express</span>
+                Back End: <span>Mongo, Node</span>
               </h3>
             </div>
           </Col>
           <Col>
             <div className='popup_buttons'>
-              <a href='https://vision-myself.netlify.app/' target='_blank'>
+              <a
+                href='https://investing-in-investing.netlify.app/'
+                target='_blank'
+              >
                 <button className='popup_but'>Website</button>
               </a>
-              <a href='https://github.com/tla111/vision-myself' target='_blank'>
-                <button className='popup_but'>Code</button>
+              <a
+                href='https://github.com/tla111/investing-in-investing_frontend'
+                target='_blank'
+              >
+                <button className='popup_but'>Front-End Code</button>
+              </a>
+              <a
+                href='https://github.com/tla111/investing-in-investing_backend'
+                target='_blank'
+              >
+                <button className='popup_but'>Back-End Code</button>
               </a>
             </div>
           </Col>
@@ -167,10 +179,7 @@ const MyWork = () => {
           </Col>
           <Col>
             <div className='popup_buttons'>
-              <a href='https://vision-myself.netlify.app/' target='_blank'>
-                <button className='popup_but'>Website</button>
-              </a>
-              <a href='https://github.com/tla111/vision-myself' target='_blank'>
+              <a href='https://github.com/tla111/se-q3-iss' target='_blank'>
                 <button className='popup_but'>Code</button>
               </a>
             </div>
