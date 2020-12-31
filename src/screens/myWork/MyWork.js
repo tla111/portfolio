@@ -54,11 +54,6 @@ const MyWork = () => {
                 Front End: <span>React</span>
               </h3>
             </div>
-            <div className='info_section3'>
-              <h3>
-                Back End: <span>Mongo, Node, Express</span>
-              </h3>
-            </div>
           </Col>
           <Col>
             <div className='popup_buttons'>
@@ -78,7 +73,7 @@ const MyWork = () => {
       {/* Popup 1 */}
       {/* Popup 2 */}
       <Container fluid className='popup' id='popup2'>
-        <Row className='popup_container'>
+        <Row className='popup_container invest_container'>
           <Col className='project_info'>
             <div className='info_section1'>
               <p>Investing-In-Investing</p>
@@ -86,11 +81,6 @@ const MyWork = () => {
             <div className='info_section2'>
               <h3>
                 Front End: <span>React</span>
-              </h3>
-            </div>
-            <div className='info_section3'>
-              <h3>
-                Back End: <span>Mongo, Node, Express</span>
               </h3>
             </div>
           </Col>
@@ -112,7 +102,7 @@ const MyWork = () => {
                 href='https://github.com/tla111/investing-in-investing_backend'
                 target='_blank'
               >
-                <button className='popup_but'>Front-End Code</button>
+                <button className='popup_but'>Back-End Code</button>
               </a>
             </div>
           </Col>
@@ -132,11 +122,6 @@ const MyWork = () => {
             <div className='info_section2'>
               <h3>
                 Front End: <span>React</span>
-              </h3>
-            </div>
-            <div className='info_section3'>
-              <h3>
-                Back End: <span>Mongo, Node</span>
               </h3>
             </div>
           </Col>
@@ -162,7 +147,7 @@ const MyWork = () => {
       {/* Popup 4 */}
       <Container fluid className='popup' id='popup4'>
         <Row className='popup_container'>
-          <Col className='project_info'>
+          {/* <Col className='project_info'>
             <div className='info_section1'>
               <p>International Space Station (ISS)</p>
             </div>
@@ -171,17 +156,36 @@ const MyWork = () => {
                 Front End: <span>React</span>
               </h3>
             </div>
-            <div className='info_section3'>
-              <h3>
-                Back End: <span>Mongo, Node, Express</span>
-              </h3>
-            </div>
           </Col>
           <Col>
             <div className='popup_buttons'>
               <a href='https://github.com/tla111/se-q3-iss' target='_blank'>
                 <button className='popup_but'>Code</button>
               </a>
+            </div>
+          </Col> */}
+          <Col className='project_info'>
+            <div className='info_section1'>
+              <h3 class='card-header'>International Space Station</h3>
+              <div class='card-body'>
+                <p class='card-text'>
+                  ▪️{''} Uses the requests package to track the location of the
+                  International Space Station (ISS)
+                </p>
+                <p class='card-text'>
+                  ▪️{''} Applies Python's built-in turtle graphics library to
+                  pinpoint Indianna's location
+                </p>
+              </div>
+              <div class='card-body'>
+                <h5 class='card-title'>Technologies:</h5>
+                <h6 class='card-subtitle text-muted'>Python</h6>
+              </div>
+              <div className='popup_buttons iss_btn'>
+                <a href='https://github.com/tla111/se-q3-iss' target='_blank'>
+                  <button className='popup_but'>Code</button>
+                </a>
+              </div>
             </div>
           </Col>
           <a href='#work' className='popup_close'>
@@ -195,24 +199,22 @@ const MyWork = () => {
         <Row className='popup_container'>
           <Col className='project_info'>
             <div className='info_section1'>
-              <p>Meiwah</p>
-            </div>
-            <div className='info_section2'>
-              <h3>
-                Front End: <span>React</span>
-              </h3>
-            </div>
-            <div className='info_section3'>
-              <h3>
-                Back End: <span>Mongo, Node, Express</span>
-              </h3>
-            </div>
-          </Col>
-          <Col>
-            <div className='popup_buttons'>
-              <a href='https://www.meiwahrestaurant.com/' target='_blank'>
-                <button className='popup_but'>Website</button>
-              </a>
+              <h3 class='card-header'>Meiwah Restaurant</h3>
+              <div class='card-body'>
+                <p class='card-text'>
+                  ▪️{''} Redesigned the website for Meiwah, a 20 year restaurant
+                  business located in the Washington, D.C. metropolitan area
+                </p>
+              </div>
+              <div class='card-body'>
+                <h5 class='card-title'>Technologies</h5>
+                <h6 class='card-subtitle text-muted'>Wix</h6>
+              </div>
+              <div className='popup_buttons'>
+                <a href='https://www.meiwahrestaurant.com/' target='_blank'>
+                  <button className='popup_but'>Website</button>
+                </a>
+              </div>
             </div>
           </Col>
           <a href='#work' className='popup_close'>

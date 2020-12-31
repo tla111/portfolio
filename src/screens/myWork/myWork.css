@@ -156,8 +156,8 @@
 }
 
 .popup_container {
-  width: 75%;
-  height: 525px;
+  width: 30%;
+  height: 500px;
   border-radius: 3px;
   background-color: white;
   box-shadow: 0 32px 64 px rgba(0, 0, 0, 0.2);
@@ -172,6 +172,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.invest_container {
+  height: 650px;
 }
 
 .popup:target {
@@ -202,8 +206,9 @@
 
 .popup_buttons {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  margin-top: 30px;
+  align-items: center;
 }
 
 .popup_but {
@@ -228,9 +233,9 @@
 }
 
 .info_section1 {
-  border: 3px solid black;
-  border-bottom: none;
-  height: 250px;
+  border: 5px solid black;
+
+  height: 400px;
   margin-top: 50px;
 }
 
@@ -254,6 +259,11 @@
 
 span {
   color: blue;
+}
+
+.card-header {
+  color: white;
+  background-color: dodgerblue;
 }
 
 @media (max-width: 812px) {
