@@ -47,43 +47,6 @@ const MyWork = () => {
         <Row className='popup_container'>
           <Col className='project_info'>
             <div className='info_section1'>
-              <p>Work It Out 2020</p>
-            </div>
-            <div className='info_section2'>
-              <h3>
-                Front End: <span>React</span>
-              </h3>
-            </div>
-            <div className='info_section3'>
-              <h3>
-                Back End: <span>Mongo, Node, Express</span>
-              </h3>
-            </div>
-          </Col>
-          <Col>
-            <div className='popup_buttons'>
-              <a href='https://work-it-out-2020.herokuapp.com/' target='_blank'>
-                <button className='popup_but'>Website</button>
-              </a>
-              <a
-                href='https://github.com/tla111/Work-It-Out-2020'
-                target='_blank'
-              >
-                <button className='popup_but'>Code</button>
-              </a>
-            </div>
-          </Col>
-          <a href='#work' className='popup_close'>
-            &times;
-          </a>
-        </Row>
-      </Container>
-      {/* Popup 1 */}
-      {/* Popup 2 */}
-      <Container fluid className='popup' id='popup2'>
-        <Row className='popup_container'>
-          <Col className='project_info'>
-            <div className='info_section1'>
               <p>Vision Myself</p>
             </div>
             <div className='info_section2'>
@@ -112,13 +75,13 @@ const MyWork = () => {
           </a>
         </Row>
       </Container>
+      {/* Popup 1 */}
       {/* Popup 2 */}
-      {/* Popup 3 */}
-      <Container fluid className='popup' id='popup3'>
+      <Container fluid className='popup' id='popup2'>
         <Row className='popup_container'>
           <Col className='project_info'>
             <div className='info_section1'>
-              <p>Investment</p>
+              <p>Investing-In-Investing</p>
             </div>
             <div className='info_section2'>
               <h3>
@@ -127,7 +90,7 @@ const MyWork = () => {
             </div>
             <div className='info_section3'>
               <h3>
-                Back End: <span>Mongo, Node</span>
+                Back End: <span>Mongo, Node, Express</span>
               </h3>
             </div>
           </Col>
@@ -149,7 +112,44 @@ const MyWork = () => {
                 href='https://github.com/tla111/investing-in-investing_backend'
                 target='_blank'
               >
-                <button className='popup_but'>Back-End Code</button>
+                <button className='popup_but'>Front-End Code</button>
+              </a>
+            </div>
+          </Col>
+          <a href='#work' className='popup_close'>
+            &times;
+          </a>
+        </Row>
+      </Container>
+      {/* Popup 2 */}
+      {/* Popup 3 */}
+      <Container fluid className='popup' id='popup3'>
+        <Row className='popup_container'>
+          <Col className='project_info'>
+            <div className='info_section1'>
+              <p>Work It Out 2020</p>
+            </div>
+            <div className='info_section2'>
+              <h3>
+                Front End: <span>React</span>
+              </h3>
+            </div>
+            <div className='info_section3'>
+              <h3>
+                Back End: <span>Mongo, Node</span>
+              </h3>
+            </div>
+          </Col>
+          <Col>
+            <div className='popup_buttons'>
+              <a href='https://work-it-out-2020.herokuapp.com/' target='_blank'>
+                <button className='popup_but'>Website</button>
+              </a>
+              <a
+                href='https://github.com/tla111/Work-It-Out-2020'
+                target='_blank'
+              >
+                <button className='popup_but'>Code</button>
               </a>
             </div>
           </Col>
@@ -164,7 +164,7 @@ const MyWork = () => {
         <Row className='popup_container'>
           <Col className='project_info'>
             <div className='info_section1'>
-              <p>Cars</p>
+              <p>International Space Station (ISS)</p>
             </div>
             <div className='info_section2'>
               <h3>

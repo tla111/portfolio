@@ -99,15 +99,15 @@
 }
 
 .project_1 {
-  background-image: url('./images/workout.png');
-}
-
-.project_2 {
   background-image: url('./images/vision_myself.png');
 }
 
-.project_3 {
+.project_2 {
   background-image: url('./images/main-kitchen.jpg');
+}
+
+.project_3 {
+  background-image: url('./images/workout.png');
 }
 
 .project_4 {
