@@ -229,7 +229,8 @@
   background-color: rgb(4, 127, 250);
 }
 
-.workout_btn {
+.workout_btn,
+.vision-btn {
   width: 150px;
 }
 

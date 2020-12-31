@@ -47,22 +47,32 @@ const MyWork = () => {
         <Row className='popup_container'>
           <Col className='project_info'>
             <div className='info_section1'>
-              <p>Vision Myself</p>
-            </div>
-            <div className='info_section2'>
-              <h3>
-                Front End: <span>React</span>
-              </h3>
-            </div>
-          </Col>
-          <Col>
-            <div className='popup_buttons'>
-              <a href='https://vision-myself.netlify.app/' target='_blank'>
-                <button className='popup_but'>Website</button>
-              </a>
-              <a href='https://github.com/tla111/vision-myself' target='_blank'>
-                <button className='popup_but'>Code</button>
-              </a>
+              <h3 class='card-header'>Vision Myself</h3>
+              <div class='card-body'>
+                <p class='card-text'>
+                  ▪️{''} Displays the importance of goal-setting and allows
+                  users to post their goals onto the community vision board
+                </p>
+              </div>
+              <div class='card-body'>
+                <h5 class='card-title'>Technologies:</h5>
+                <h6 class='card-subtitle text-muted'>
+                  React | React-Redux | JavaScript | Express | Node.js | APIs |
+                  MongoDB | Postman | Bootstrap | Material-UI | CSS for UI
+                  Design | Netlify
+                </h6>
+              </div>
+              <div className='popup_buttons iss_btn'>
+                <a href='https://vision-myself.netlify.app/' target='_blank'>
+                  <button className='popup_but vision-btn'>Website</button>
+                </a>
+                <a
+                  href='https://github.com/tla111/vision-myself'
+                  target='_blank'
+                >
+                  <button className='popup_but vision-btn'>Code</button>
+                </a>
+              </div>
             </div>
           </Col>
           <a href='#work' className='popup_close'>
@@ -116,27 +126,6 @@ const MyWork = () => {
       <Container fluid className='popup' id='popup3'>
         <Row className='popup_container workout_container'>
           <Col className='project_info'>
-            {/* <div className='info_section1'>
-              <p>Work It Out 2020</p>
-            </div>
-            <div className='info_section2'>
-              <h3>
-                Front End: <span>React</span>
-              </h3>
-            </div>
-          </Col>
-          <Col>
-            <div className='popup_buttons'>
-              <a href='https://work-it-out-2020.herokuapp.com/' target='_blank'>
-                <button className='popup_but'>Website</button>
-              </a>
-              <a
-                href='https://github.com/tla111/Work-It-Out-2020'
-                target='_blank'
-              >
-                <button className='popup_but'>Code</button>
-              </a>
-            </div> */}
             <div className='info_section1 workout_section'>
               <h3 class='card-header'>Work-It-Out</h3>
               <div class='card-body'>
