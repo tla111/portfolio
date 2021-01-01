@@ -38,7 +38,16 @@ const MyWork = () => {
         </Row>
         <Row>
           <Col className='work_box2'>
-            <h1>Contact: tlamarketing111@gmail.com</h1>
+            <h1>
+              {' '}
+              📧 tlamarketing111@gmail.com | 🧑‍💻{' '}
+              <a
+                href='https://www.linkedin.com/in/timothy-la111'
+                target='_blank'
+              >
+                linkedin.com/in/timothy-la111
+              </a>
+            </h1>
           </Col>
         </Row>
       </Container>

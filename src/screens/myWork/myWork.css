@@ -88,6 +88,16 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.work_box2 a:link,
+.work_box2 a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.work_box2 a:hover {
+  color: dodgerblue;
+}
+
 .projects {
   height: 250px;
   width: 250px;
