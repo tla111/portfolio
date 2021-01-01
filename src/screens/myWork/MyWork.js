@@ -58,19 +58,19 @@ const MyWork = () => {
                 <h5 class='card-title'>Technologies:</h5>
                 <h6 class='card-subtitle text-muted'>
                   React | React-Redux | JavaScript | Express | Node.js | APIs |
-                  MongoDB | Postman | Bootstrap | Material-UI | CSS for UI
+                  MongoDB | Postman | Bootstrap, Material-UI, & CSS for UI
                   Design | Netlify
                 </h6>
               </div>
               <div className='popup_buttons iss_btn'>
                 <a href='https://vision-myself.netlify.app/' target='_blank'>
-                  <button className='popup_but vision-btn'>Website</button>
+                  <button className='popup_but vision_btn'>Website</button>
                 </a>
                 <a
                   href='https://github.com/tla111/vision-myself'
                   target='_blank'
                 >
-                  <button className='popup_but vision-btn'>Code</button>
+                  <button className='popup_but vision_btn'>Code</button>
                 </a>
               </div>
             </div>
@@ -85,35 +85,46 @@ const MyWork = () => {
       <Container fluid className='popup' id='popup2'>
         <Row className='popup_container invest_container'>
           <Col className='project_info'>
-            <div className='info_section1'>
-              <p>Investing-In-Investing</p>
-            </div>
-            <div className='info_section2'>
-              <h3>
-                Front End: <span>React</span>
-              </h3>
-            </div>
-          </Col>
-          <Col>
-            <div className='popup_buttons'>
-              <a
-                href='https://investing-in-investing.netlify.app/'
-                target='_blank'
-              >
-                <button className='popup_but'>Website</button>
-              </a>
-              <a
-                href='https://github.com/tla111/investing-in-investing_frontend'
-                target='_blank'
-              >
-                <button className='popup_but'>Front-End Code</button>
-              </a>
-              <a
-                href='https://github.com/tla111/investing-in-investing_backend'
-                target='_blank'
-              >
-                <button className='popup_but'>Back-End Code</button>
-              </a>
+            <div className='info_section1 invest_section'>
+              <h3 class='card-header'>Investing-In-Investing</h3>
+              <div class='card-body'>
+                <p class='card-text'>
+                  ▪️{''} Compares different material and features of home
+                  furniture to help buyers/investors with their investment
+                  decisions
+                </p>
+                <p class='card-text'>
+                  ▪️{''} This web application integrates both React (frontend)
+                  and Django (backend)
+                </p>
+              </div>
+              <div class='card-body'>
+                <h5 class='card-title'>Technologies:</h5>
+                <h6 class='card-subtitle text-muted'>
+                  React | Django | APIs | SQL | Back-End | Bootstrap,
+                  Material-UI, & CSS for UI Design | Netlify | Heroku
+                </h6>
+              </div>
+              <div className='popup_buttons'>
+                <a
+                  href='https://investing-in-investing.netlify.app/'
+                  target='_blank'
+                >
+                  <button className='popup_but invest_btn'>Website</button>
+                </a>
+                <a
+                  href='https://github.com/tla111/investing-in-investing_frontend'
+                  target='_blank'
+                >
+                  <button className='popup_but invest_btn'>Front-End</button>
+                </a>
+                <a
+                  href='https://github.com/tla111/investing-in-investing_backend'
+                  target='_blank'
+                >
+                  <button className='popup_but invest_btn'>Back-End</button>
+                </a>
+              </div>
             </div>
           </Col>
           <a href='#work' className='popup_close'>

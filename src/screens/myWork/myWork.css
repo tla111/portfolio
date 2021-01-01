@@ -174,12 +174,9 @@
   align-items: center;
 }
 
-.workout_container {
-  height: 600px;
-}
-
+.workout_container,
 .invest_container {
-  height: 650px;
+  height: 600px;
 }
 
 .popup:target {
@@ -230,8 +227,12 @@
 }
 
 .workout_btn,
-.vision-btn {
+.vision_btn {
   width: 150px;
+}
+
+.invest_btn {
+  width: 100px;
 }
 
 /*==============================*/
@@ -246,7 +247,8 @@
   margin-top: 50px;
 }
 
-.workout_section {
+.workout_section,
+.invest_section {
   height: 525px;
 }
 
