@@ -11,6 +11,8 @@ const Home = () => {
           <Col sm={12} md={6} className='box_left'>
             <div className='profile_pic' />
             <h1>TIM LA</h1>
+            <div className='fullstack'></div>
+            <h1>Full Stack Web Developer</h1>
           </Col>
           <Col sm={6} md={6} className='box_right'>
             <div className='typed_text_container'>
