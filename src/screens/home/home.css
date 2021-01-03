@@ -43,7 +43,7 @@
 }
 
 .Typewriter__wrapper {
-  color: blue;
+  color: gray;
   height: 150px;
   font-size: 35px;
   font-weight: 900;
@@ -62,8 +62,10 @@
     justify-content: unset;
     height: 0;
   }
+  .box_left h1 {
+    text-align: center;
+  }
   .box_right h1 {
-    background-color: skyblue;
     font-size: 50px;
   }
   .Typewriter__wrapper {
