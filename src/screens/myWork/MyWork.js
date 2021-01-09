@@ -159,6 +159,11 @@ const MyWork = () => {
                   use of CRUD operations, functionality of a social media
                   platform, and features of a bug tracker application
                 </p>
+                <p class='card-text'>
+                  ▪️{''} To save you time from registering, please log in as:
+                  <br></br> Username: JohnSmith111
+                  <br></br> Password: 1234
+                </p>
               </div>
               <div class='card-body'>
                 <h5 class='card-title'>Technologies:</h5>

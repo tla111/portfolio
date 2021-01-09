@@ -184,7 +184,10 @@
   align-items: center;
 }
 
-.workout_container,
+.workout_container {
+  height: 650px;
+}
+
 .invest_container {
   height: 600px;
 }
@@ -257,7 +260,10 @@
   margin-top: 50px;
 }
 
-.workout_section,
+.workout_section {
+  height: 575px;
+}
+
 .invest_section {
   height: 525px;
 }
