@@ -239,7 +239,11 @@
   background-color: rgb(4, 127, 250);
 }
 
-.workout_btn,
+.workout_btn {
+  height: 50px;
+  width: 100px;
+}
+
 .vision_btn {
   width: 150px;
 }
@@ -270,6 +274,10 @@
 
 span {
   color: blue;
+}
+
+.workout_span {
+  color: black;
 }
 
 .card-header {

@@ -161,8 +161,7 @@ const MyWork = () => {
                 </p>
                 <p class='card-text'>
                   ▪️{''} To save you time from registering, please log in as:
-                  <br></br> Username: JohnSmith111
-                  <br></br> Password: 1234
+                  <br></br> <span class='workout_span'>Username: JohnSmith111 | Password: 1234 </span>
                 </p>
               </div>
               <div class='card-body'>
