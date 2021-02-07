@@ -7,8 +7,8 @@ const MyWork = () => {
   return (
     <div>
       <Container fluid className='work_container' id='work_page'>
-        <div className='left_door' id='l_door'></div>
-        <div className='right_door' id='r_door'></div>
+        {/* <div className='left_door' id='l_door'></div>
+        <div className='right_door' id='r_door'></div> */}
         <Row className='work_box1'>
           <Col className='work_box_col'>
             <a href='#popup1'>
@@ -71,7 +71,7 @@ const MyWork = () => {
                   Design | Netlify
                 </h6>
               </div>
-              <div className='popup_buttons iss_btn'>
+              <div className='popup_buttons'>
                 <a href='https://vision-myself.netlify.app/' target='_blank'>
                   <button className='popup_but vision_btn'>Website</button>
                 </a>
@@ -161,7 +161,10 @@ const MyWork = () => {
                 </p>
                 <p class='card-text'>
                   ▪️{''} To save you time from registering, please log in as:
-                  <br></br> <span class='workout_span'>Username: JohnSmith111 | Password: 1234 </span>
+                  <br></br>{' '}
+                  <span class='workout_span'>
+                    Username: JohnSmith111 | Password: 1234{' '}
+                  </span>
                 </p>
               </div>
               <div class='card-body'>
@@ -196,27 +199,42 @@ const MyWork = () => {
       {/* Popup 3 */}
       {/* Popup 4 */}
       <Container fluid className='popup' id='popup4'>
-        <Row className='popup_container'>
+        <Row className='popup_container journal_container'>
           <Col className='project_info'>
-            <div className='info_section1'>
-              <h3 class='card-header'>International Space Station</h3>
+            <div className='info_section1 journal_section'>
+              <h3 class='card-header'>Bullet Journal</h3>
               <div class='card-body'>
                 <p class='card-text'>
-                  ▪️{''} Uses the requests package to track the location of the
-                  International Space Station (ISS)
+                  ▪️{''} Built a bullet journal web application with three team
+                  members for our final capstone project
                 </p>
                 <p class='card-text'>
-                  ▪️{''} Applies Python's built-in turtle graphics library to
-                  pinpoint Indianna's location
+                  ▪️{''} To save you time from registering, please log in as:
+                  <br></br>{' '}
+                  <span class='workout_span'>
+                    Username: tla111 | Password: 1234{' '}
+                  </span>
                 </p>
               </div>
               <div class='card-body'>
                 <h5 class='card-title'>Technologies:</h5>
-                <h6 class='card-subtitle text-muted'>Python</h6>
+                <h6 class='card-subtitle text-muted'>
+                  Django | Python | JavaScript | PaperCSS & Bootstrap for UI
+                  Design | Heroku
+                </h6>
               </div>
-              <div className='popup_buttons iss_btn'>
-                <a href='https://github.com/tla111/se-q3-iss' target='_blank'>
-                  <button className='popup_but'>Code</button>
+              <div className='popup_buttons'>
+                <a
+                  href='https://bullet-journal-capstone-2021.herokuapp.com'
+                  target='_blank'
+                >
+                  <button className='popup_but iss_btn'>Website</button>
+                </a>
+                <a
+                  href='https://github.com/tla111/bullet-journal-capstone'
+                  target='_blank'
+                >
+                  <button className='popup_but iss_btn'>Code</button>
                 </a>
               </div>
             </div>

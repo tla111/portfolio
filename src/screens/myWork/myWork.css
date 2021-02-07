@@ -121,8 +121,7 @@
 }
 
 .project_4 {
-  background-image: url('./images/telescope.jpg');
-  background-position-x: 80%;
+  background-image: url('./images/journal2.png');
 }
 .project_5 {
   background-image: url('./images/Meiwah.png');
@@ -192,6 +191,10 @@
   height: 600px;
 }
 
+.journal_container {
+  height: 550px;
+}
+
 .popup:target {
   opacity: 1;
   visibility: visible;
@@ -244,7 +247,8 @@
   width: 100px;
 }
 
-.vision_btn {
+.vision_btn,
+.iss_btn {
   width: 150px;
 }
 
@@ -270,6 +274,10 @@
 
 .invest_section {
   height: 525px;
+}
+
+.journal_section {
+  height: 480px;
 }
 
 span {
